@@ -1,0 +1,109 @@
+.carreer-container{
+  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.career-content{
+    width: 85%;
+    height: 40rem;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+  
+   
+}
+.carreer-left{
+   
+    height: 25%;
+    width: 100%;
+    
+}
+.career-left-content{
+    display: flex;
+    height: 2rem;
+    width: 100%;
+   margin-top: 25px;
+  
+}
+
+.career-left-date{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.briefcase i{
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.calendar{
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+    color: #dc8f00;
+    font-size: 12px;
+}
+.calendar i{
+    font-size: 1rem;
+    margin-top: 1px;
+    margin-right: 8px;
+}
+
+.career-left-details{
+    text-align: left;
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+
+.career-left-details span{
+    border: 2px solid #dc8f00;
+    margin-left: 1.3rem;
+}
+
+.career-track{
+   
+    width: 100%;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 12px;
+    display: inline;
+    justify-content: start;
+    align-content: baseline;
+    text-align: start;
+   
+}
+
+@media (max-width: 970px) {
+    .career-content{
+        width: 93%;
+        height: 40rem;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+       
+    }
+
+    .career-left-content{
+        display: flex;
+        height: 2rem;
+        width: 100%;
+       margin-top: 25px;
+       margin-bottom: 3px;
+    }
+    
+    .career-track p{
+   
+      font-size: .9rem;
+       
+    }
+    
+    
+}

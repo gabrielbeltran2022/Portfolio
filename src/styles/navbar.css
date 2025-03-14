@@ -1,0 +1,260 @@
+.navigator{
+    width: 36rem;
+    height: 7.5vh;
+    text-align: center;
+    border: 2px solid  #dc8f00;
+    justify-content: center;
+    top: 0;
+    border-radius: 14px;
+    margin-top: 15px;
+    position: absolute;
+    
+}
+ul{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+
+
+.navbar{
+    margin: 5px;
+    width: 4.4rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  none;
+    text-decoration: none;
+    
+
+}
+
+.navbar:hover{
+    background-color: #dc8f00;
+    border-radius: 5px;
+}
+
+.navbar::before{
+    content: '';
+    position: absolute;
+    background-color:  #dc8f00;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    animation: 1s forwards ani1 linear;
+    z-index: -1;
+}
+
+.navbar:hover:before,
+.navbar:focus:before{
+    animation: .5s forwards ani2 linear;
+}
+
+@keyframes ani2 {
+    0%{
+        transform: scaleX(0);
+        height: 5px;
+    }
+    45%{
+        transform: scaleX(1);
+        height: 5px;
+    }
+    55%{
+        height: 5px;
+    }  
+    100%{
+        text-replace: scaleX(1);
+        height: 40px;
+    }  
+}
+
+@keyframes ani1 {
+    0%{
+        transform: scaleX(1);
+        height: 40px;
+    }
+    45%{
+       
+        height: 5px;
+    }
+    55%{
+        transform: scaleX(1);
+        height: 5px;
+        opacity: 1;
+    }  
+    100%{
+        text-replace: scaleX(0);
+        height: 5px;
+        opacity: .02;
+    }  
+}
+
+
+
+button{
+    background-color: white;
+    width: 6rem;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family:  sans-serif;
+   
+    background-color: rgba(113, 77, 4, 0);
+    color: rgb(223, 226, 229);
+   
+}
+
+
+
+
+
+.sidebaricon{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    color: white;
+   justify-content: center;
+   display: flex;
+  font-size: calc(30px + 2vmin);
+  
+}
+
+
+
+
+
+.side-navigator{
+    width: 3rem;
+    height: 240px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid  #dc8f00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10rem;
+    border-radius: 19px;
+    position: fixed;
+}
+
+.side-navigator ul{
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+   
+    display: block;
+    height: 100%;
+    justify-content: center;
+  
+    
+}
+.side-navigator ul li{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+    
+}
+
+
+.sidebar-btn{
+    width: 100%;
+    margin-right: 9px;
+   font-size: 19px;
+   
+}
+.active{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: .9rem;
+    font-family: 'Roboto','san-serif';
+    
+}
+
+
+/*mobile*/
+
+.mobile-container{
+  font-family:  sans-serif;
+    width: 90%;
+    height: 5vh;
+    text-align: center;
+    z-index: 1;
+   
+}
+.mobile-menu{
+    right: 0;
+    width: 100%;
+}
+.mobile-icon{
+
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 17px;
+}
+
+.mobile-container i{
+    color: white;
+    font-size: 24px;
+}
+.activeMobile{
+    color: white;
+}
+
+.activeMobile:hover{
+    color: #dc8f00;
+}
+
+
+/*Nav Menu*/
+
+.subMenu{
+    position: absolute;
+    width: 2rem;
+    height: 22vh;
+    margin-left: .6rem;
+    font-size: 1px;
+}
+.subMenu-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    background-color:   #dc8f00;
+    border-radius: 6px;
+    
+}
+.subMenu ul{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.subMenlink i{
+    font-size: .9rem;
+}
