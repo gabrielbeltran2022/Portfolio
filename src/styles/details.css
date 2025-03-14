@@ -77,15 +77,16 @@
     
 
     .details-left-container{
-        width: 85%;
-        height: 80%;
+        width: 92%;
+        height: 92%;
         align-items: center;
         padding-top: 15px;
         display: inline;
         text-align: center;
         justify-content: center;
         border: 2px solid  #dc8f00;
-        border-radius: 40px;
+        border-radius: 20px;
+        margin-top: 15px;
     }
      .details-left-list{
        

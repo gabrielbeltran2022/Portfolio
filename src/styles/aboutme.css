@@ -18,7 +18,7 @@
 .about-me-title{
     height: 93%;
     width: 80%;
-    margin-top: 2.3rem;
+    margin-top: .3rem;
 }
 
 .about-header{
@@ -320,7 +320,7 @@
     }
   
     .tree{
-        height: 80%;
+        height: 100%;
         width: 100%;
         background: linear-gradient(-45deg, #20015d,#da8f03);
         border-radius: 150px;
@@ -362,11 +362,11 @@
     .left-branch-span{
         position: absolute;
         background: 2px solid green;
-        width: 3.2rem;
+        width: 2.7rem;
         height: 20px;
         border-bottom: 2.2px solid #dc8f00;
         text-align: center;
-        margin-left: 55px;
+        margin-left: 40px;
     }
 
     
@@ -436,14 +436,14 @@
 .branches-right-1{
     width: 10rem;
     height: 4rem;
-    margin-left: .6rem;
+    margin-left: .4rem;
     display: flex;
     justify-content: flex-start;
    
 }
 .branches-right-1 p{
     border: 1px solid #dc8f00;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     font-size: .7rem;
     font-family:  'Roboto';
     width: 5rem;
@@ -459,14 +459,14 @@
 .branches-right-2{
     width: 10rem;
     height: 4rem;
-    margin-left: .6rem;
+    margin-left: .4rem;
     display: flex;
     justify-content: flex-start;
    
 }
 .branches-right-2 p{
     border: 1px solid #dc8f00;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     font-size: .7rem;
     font-family:  'Roboto';
     width: 5rem;
@@ -482,14 +482,14 @@
 .branches-right-3{
     width: 10rem;
     height: 4rem;
-    margin-left: .6rem;
+    margin-left: .3rem;
     display: flex;
     justify-content: flex-start;
    
 }
 .branches-right-3 p{
     border: 1px solid #dc8f00;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     font-size: .7rem;
     font-family:  'Roboto';
     width: 5rem;
@@ -506,14 +506,14 @@
 .branches-right-4{
     width: 10rem;
     height: 4rem;
-    margin-left: .6rem;
+    margin-left: .3rem;
     display: flex;
     justify-content: flex-start;
    
 }
 .branches-right-4 p{
     border: 1px solid #dc8f00;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     font-size: .7rem;
     font-family:  'Roboto';
     width: 5rem;

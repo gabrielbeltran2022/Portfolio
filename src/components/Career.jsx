@@ -49,7 +49,7 @@ const Carreer = () => {
                             <span></span>
                             <div className='career-track'>
                                 <h6>Web Developer</h6>
-                                <div>
+                                <div className='carreer-text'>
                                     <p>
                                     A career as a web developer involves creating, maintaining, and optimizing websites and web applications, offering opportunities to innovate and grow in the ever-evolving tech industry.
                                     </p>
@@ -74,7 +74,7 @@ const Carreer = () => {
                             <span></span>
                             <div className='career-track'>
                                 <h6>Information Technology</h6>
-                                <div>
+                                <div className='carreer-text'>
                                     <p>
                                     An I.T. staff member manages and supports an organization's technology systems, ensuring smooth operations, network security, and efficient problem resolution.
                                     </p>
@@ -99,7 +99,7 @@ const Carreer = () => {
                             <span></span>
                             <div className='career-track'>
                                 <h6>CCTV Technichian</h6>
-                                <div>
+                                <div className='carreer-text'>
                                     <p>
                                     A CCTV technician installs, maintains, and troubleshoots surveillance systems to ensure reliable security monitoring and footage recording.
                                     </p>

@@ -62,9 +62,9 @@ const Aboutme = (props) => {
             
         })
         gsap.from(midTree.current,{
-            y: -50,
+            y: -30,
             opacity:0,
-            duration: 1,
+            duration: .5,
             delay:  .4,
             stagger: 1,
             scrollTrigger: {
@@ -76,9 +76,9 @@ const Aboutme = (props) => {
         })
 
         gsap.from(rightTree1.current,{
-            x: -10,
+            x: -4,
             opacity:0,
-            duration: 1,
+            duration: .5,
             delay:  .5,
             stagger: 1,
             scrollTrigger: {
@@ -90,7 +90,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(rightTree.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  .6,
@@ -105,7 +105,7 @@ const Aboutme = (props) => {
         })
 
         gsap.from(rightTree2.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  1,
@@ -119,7 +119,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(rightTree3.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  1.1,
@@ -133,7 +133,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(rightTree4.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  1.4,
@@ -147,7 +147,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(rightTree5.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  1.5,
@@ -161,7 +161,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(rightTree6.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  1.8,
@@ -175,7 +175,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(rightTree7.current,{
-            x: -5,
+            x: -4,
             opacity:0,
             duration: 1,
             delay:  1.9,
@@ -190,7 +190,7 @@ const Aboutme = (props) => {
 
 
         gsap.from(leftTree.current,{
-            x: 9,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  .7,
@@ -204,7 +204,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree1.current,{
-            x: 9,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  .9,
@@ -218,7 +218,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree2.current,{
-            x: 9,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  1.2,
@@ -232,7 +232,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree3.current,{
-            x: 9,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  1.3,
@@ -246,7 +246,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree4.current,{
-            x: 9,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  1.6,
@@ -260,7 +260,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree5.current,{
-            x: 9,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  1.7,
@@ -274,7 +274,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree6.current,{
-            x: 4,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  2,
@@ -287,7 +287,7 @@ const Aboutme = (props) => {
             }
         })
         gsap.from(leftTree7.current,{
-            x: 4,
+            x: 1,
             opacity:0,
             duration: 1,
             delay:  2.1,

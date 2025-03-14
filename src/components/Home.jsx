@@ -107,6 +107,9 @@ const Home = () => {
                     <div id='Contacts' className='app-contact'>
                        <Contact icons={subIcon.icons}/> 
                    </div>
+                     <div className='extra-div-2'>
+
+                   </div>
                 </div> 
                )
                : 

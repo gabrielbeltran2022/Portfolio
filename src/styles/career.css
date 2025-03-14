@@ -83,17 +83,17 @@
 @media (max-width: 970px) {
     .career-content{
         width: 93%;
-        height: 40rem;
+        height: 29rem;
         border-radius: 15px;
         align-items: center;
         justify-content: center;
         display: block;
-       
+       border: 2px;
     }
 
     .career-left-content{
         display: flex;
-        height: 2rem;
+        height: 3rem;
         width: 100%;
        margin-top: 25px;
        margin-bottom: 3px;
@@ -101,9 +101,31 @@
     
     .career-track p{
    
-      font-size: .9rem;
+      font-size: .6em;
        
     }
-    
-    
+   
+    .calendar{
+        display: flex;
+        width: 100%;
+        margin-top: 1.1rem;
+        color: #dc8f00;
+        font-size: 12px;
+    }
+    .calendar i{
+        font-size: 1rem;
+        margin-right: 8px;
+    }
+    .briefcase i{
+        margin-top: 1rem;
+        margin-right: 25px;
+        margin-left: 13px;
+        font-size: 1.5rem;
+    }
+    .career-left-details{
+        text-align: left;
+        display: flex;
+        height: 70%;
+        width: 100%;
+    }
 }

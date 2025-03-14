@@ -262,7 +262,7 @@ useGSAP(()=>{
                         </div>
                         </form>
                       </div>
-                
+                 
                  {
                     
                     showNotify  && < Notify/>  
