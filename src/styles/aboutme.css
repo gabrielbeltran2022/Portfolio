@@ -91,7 +91,7 @@
     text-align: center;
     display: flex;
     justify-content: end;
-    margin-top: 7rem;
+    margin-top: 4rem;
 
 }
  
@@ -185,7 +185,7 @@
 }
 
 .branches-right-2{
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 100%;
     text-align: center;
     display: flex;
@@ -308,6 +308,71 @@
     visibility: hidden;
 }
 
+@media  (max-width: 1024px) {
+    .about-me-content{
+        width: 100%;
+        height: 100%;
+        
+       
+    }
+  
+    .tree{
+        height: 89%;
+        width: 100%;
+        background: linear-gradient(-45deg, #20015d,#da8f03);
+        border-radius: 150px;
+       
+    }
+    .brances-left{
+        position: relative;
+        margin-top: 4.5rem;
+    }
+    .branches-left-2{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        margin-top: 2rem;
+    
+    }
+    .branches-right-1{
+        margin-top: 3rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+    }
+    .branches-right-2{
+        margin-top: 2rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+    }
+    .branches-right-3{
+        margin-top: 2rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+    }
+    .branches-left-4{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        margin-top: 3rem;
+    }
+    .branches-right-4{
+        margin-top: 3.5rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: start; 
+    }
+    
+}
+
 @media (max-width: 970px) {
     .about-me-content{
         width: 100%;
@@ -320,15 +385,23 @@
     }
   
     .tree{
-        height: 100%;
+        height: 75%;
         width: 100%;
         background: linear-gradient(-45deg, #20015d,#da8f03);
         border-radius: 150px;
         margin-left: 10px;
     }
+    .left-tree{
+    position: relative;
+    width: 50%;
+
+    display: flex;
+    justify-content: end;
+}
    
     .brances-left{
         width: 10rem;
+       
     }
     .brances-left p{
         border: 2.2px solid #dc8f00;
@@ -339,12 +412,14 @@
         padding: .4rem;
         border-radius: 250px;
         
+        
     }
     .branches-left-1{
         width: 15rem;
         text-align: center;
         display: flex;
         justify-content: space-evenly;
+       
         
     }
     
@@ -408,6 +483,13 @@
         margin-top: 10px;
         border-radius: 250px;
 
+}
+.branches-right-4{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: start; 
 }
 
 .branches-left-4{

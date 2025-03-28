@@ -13,7 +13,7 @@ const Notify = () => {
     useGSAP(() =>{
      
         gsap.to(notification.current,{
-            y: -20,
+            x: 20,
             opacity:1,
             duration:1,
             delay: 1.6,

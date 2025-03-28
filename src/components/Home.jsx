@@ -99,7 +99,7 @@ const Home = () => {
                             <Other />
                 
                     </div> 
-                      {windowWidth < 970 ?(
+                      {windowWidth < 850 ?(
                   <div>
                   <div className='extra-div'>
 

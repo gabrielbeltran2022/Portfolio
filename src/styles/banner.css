@@ -102,6 +102,47 @@
 
 }
 
+
+
+@media (max-width: 1024px ) {
+
+    .banner{
+        width: 100%;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        color: rgb(223, 226, 229);
+      
+     
+    }
+    .banner-name{
+       
+        grid-row: 2;   
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner-image{
+        
+        grid-row: 1;
+    }
+    .banner-image  img{
+        border-radius: 365px;
+        width: 17rem;
+        height: 19rem;
+        object-fit: cover;
+        background-color: #da8f03;
+        object-fit: fill;
+        border: 2px solid #da8f03;
+    }
+    .myName{
+        color: #da8f03;
+        font-size: 2rem;
+    }
+}
+
+
+
+
 @media (max-width: 970px ) {
 
     .banner{

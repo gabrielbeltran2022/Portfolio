@@ -180,12 +180,10 @@ useGSAP(()=>{
   return (
     <>
         <div className='contact-container' >
-            <div className='container-content'>
-            <h1 ref={contactSection}>Contact Me!</h1>
-                <div className='contact-title'>
-                
-               
-                      <div className='contact-details'>
+       
+            <div className='container-content' ref={contactSection}>
+              <h1>Contact Me!</h1>
+              <div className='contact-details'>
                       <div className='contact-section'>
                         {
                         Data.map(({id,address,contact,email}) => (
@@ -262,14 +260,17 @@ useGSAP(()=>{
                         </div>
                         </form>
                       </div>
+                     
+                 
+          
+            </div>
+
                  
                  {
                     
                     showNotify  && < Notify/>  
                 
                  }
-                </div>
-            </div>
         </div>
     </>
   )

@@ -88,7 +88,7 @@ const Other = () => {
                     </div>
                     <div className='other-details'>
                         <div className='card-cotainer'>
-                            <div  ref={codingDiv} className='card-1'>
+                            <div  ref={codingDiv} className='card-2'>
                                 <Card className='card-content-1'>
                                     <Card.Img variant="top" src={coding} className='card-image-1'/>
                                     <Card.Body className='card-body-1'>

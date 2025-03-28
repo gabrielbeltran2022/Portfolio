@@ -14,9 +14,7 @@
    
 }
 
-.container-content{
-    margin-top: 1.5rem;
-}
+
 .sidebaricon{
     margin-top: 1rem;
     width: 100%;
@@ -122,6 +120,9 @@
     text-align: start;
     margin-bottom: 1rem;
 }
+.container-content h1{
+    margin-bottom: 10rem;
+}
 
 .input-2 input{
     width: 100%;
@@ -171,6 +172,7 @@ input[type=number] ::-webkit-outer-spin-button{
     width: 30rem;
     align-items: start;
     text-align: start;
+    margin-bottom: 1px;
 }
 
 .input-3 input{
@@ -182,6 +184,7 @@ input[type=number] ::-webkit-outer-spin-button{
     padding: 14px;
     color: whitesmoke;
     font-size: 1em;
+    margin-bottom: 1rem;
 }
 .input-3 span{
     position: absolute;
@@ -321,10 +324,12 @@ input[type="number"]::-webkit-inner-spin-button{
     align-items: center;
     border: 2px solid #016202;;
     position: absolute;
-    width: 250px;
+    width: 240px;
     height: 75px;
     right: 0;
-    margin-right: 10px;
+    margin-top: 50rem;
+    margin-right: 5rem;
+    
 }
 
 .submit-notification i{
@@ -353,26 +358,116 @@ input[type="number"]::-webkit-inner-spin-button{
 .submit-notification p{
    font-size: 11px;
 }
+@media (max-width: 1320px) {
+    .submit-notification{
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid #016202;;
+        position: absolute;
+        width: 240px;
+        height: 75px;
+        right: 0;
+        margin-top: 44rem;
+        margin-right: 2rem;
+        
+    }
+    .submit-notification i{
+        border-right: 1px solid #016202;;
+        height: 100%;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: rgb(1, 218, 1);
+        
+    }
+    .submit-text{
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 80%;
+        margin-top: 12px;
+    }
+    .submit-text h6{
+        font-size: 12px;
+        
+    }
+    
+    .submit-notification p{
+       font-size: 11px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+   .contact-container{
+    width: 100%;
+    height: 100%;
+   }
+   .container-content{
+  
+    width: 85%;
+    height: 100%;
+  
+   }
+   .container-content h1{
+    margin-bottom: 2rem;
+
+}
+.submit-notification{
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #016202;;
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    right: 0;
+    margin-top: 33.5rem;
+    margin-right: 2rem;
+}
+.submit-text h6{
+    font-size: 7px;
+    
+}
+.submit-notification p{
+    font-size: 7px;
+ }
+
+}
+
+
+
+
+
+
+
 
 
 @media (max-width: 970px) {
     .contact-container{
         width: 100%;
         height: 100%;
-        display: grid;
+        display: flex;
         align-self: center;
         justify-content: center;
         font-family: 'Roboto','san-serif';
+       
   
     }
-    .contact-title{
-        margin-top: 2rem;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
+    .contact-details{
+        display: grid;
+      
+     
+
+        
     }
+
 
     .sidebaricon{
         margin-top: .5rem;
@@ -380,13 +475,8 @@ input[type="number"]::-webkit-inner-spin-button{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-       
      
-    }
- .contact-details{
-        display: grid;
-       
-       
+     
     }
 
     .contact-section{   
@@ -394,22 +484,26 @@ input[type="number"]::-webkit-inner-spin-button{
         align-items: center;
         display: grid;
         justify-content: center;
-      
+        text-align: center;
+       
     }
     
     .contact-me{
-        width: 85%;
+        width: 16rem;
         height: 100%; 
         text-align: start;  
         justify-content: center;
-        font-display: grid;
-        margin-left: 2rem;
+        display: grid;
+   
+     
         
     }
         .contact-location{
             display: flex;
-            width: 85%;
+            width: 100%;
             margin-top: .3rem;
+            
+    
            
 
 }
@@ -417,14 +511,17 @@ input[type="number"]::-webkit-inner-spin-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     flex-direction: column;
     width: 100%;
     margin-top: .2rem;
+         
+
   }
 
   .input-1{
     position: relative;
-    width: 20rem;
+    width: 17rem;
     font-size: .8rem;
     align-items: start;
     text-align: start;
@@ -466,7 +563,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 .input-2{
     position: relative;
-    width: 20rem;
+    width: 17rem;
     font-size: .8rem;
     align-items: start;
     text-align: start;
@@ -519,7 +616,7 @@ input[type=number] ::-webkit-outer-spin-button{
 
 .input-3{
     position: relative;
-    width: 20rem;
+    width: 17rem;
     font-size: .8rem;
     align-items: start;
     text-align: start;
@@ -572,7 +669,7 @@ input[type="number"]::-webkit-inner-spin-button{
 
 .input-4{
     position: relative;
-    width: 20rem;
+    width: 17rem;
     font-size: .8rem;
     align-items: start;
     text-align: start;
@@ -645,7 +742,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .facebook-div{
-    margin-right: 1.4rem;
+    margin-right: 2rem;
     width: 10%;
   
 }
@@ -656,7 +753,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .linked-div{
-    margin-right: 1.4rem;
+    margin-right: 2rem;
     width: 10%;
 }
 .email-div{
